@@ -131,7 +131,7 @@ func main() {
 	//
 	// Go言語の場合:
 	// 上記の通り、そもそもロケール設定に依存したロジックを書かないため、
-	// LC_ALL を気にする必要はな
+	// LC_ALL を気にする必要はない。
 
 	// DISPATCH_POSTMASTER
 	var rootCmd = &cobra.Command{
