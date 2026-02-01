@@ -29,10 +29,10 @@ func CheckRoot(_ string) error {
 
 	if isAdmin {
 		return errors.New(`Execution of PostgreSQL by a user with administrative permissions is not
- permitted.
- The server must be started under an unprivileged user ID to prevent
- possible system security compromises.  See the documentation for
- more information on how to properly start the server`)
+permitted.
+The server must be started under an unprivileged user ID to prevent
+possible system security compromises.  See the documentation for
+more information on how to properly start the server`)
 	}
 
 	return nil
